@@ -7,13 +7,13 @@
       </div>
       <v-card>
         <v-card-title class="headline">
-          Accueil to the Vuetify + Nuxt.js template
+          Bienvenue sur Coaching gagnant !
         </v-card-title>
         <v-card-text>
+          <h2>Coaching gagnant c'est quoi ?</h2>
           <p>
-            Vuetify is a progressive Material Design component framework for
-            Vue.js. It was designed to empower developers to create amazing
-            applications.
+            Coaching gagnant, c'est un site web, qui regroupe tout les match de
+            Superliga, la ligue danoise !
           </p>
           <p>
             For more information on Vuetify, check out the
@@ -73,7 +73,7 @@
         </v-card-text>
         <v-card-actions>
           <v-spacer />
-          <v-btn color="primary" nuxt to="/inspire"> Continue </v-btn>
+          <v-btn color="dark" nuxt to="/inspire"> Superliga </v-btn>
         </v-card-actions>
       </v-card>
     </v-col>

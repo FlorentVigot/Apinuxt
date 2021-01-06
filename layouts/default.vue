@@ -71,12 +71,13 @@ export default {
       fixed: false,
       items: [
         {
-          icon: "mdi-apps",
+          icon: "mdi-home",
           title: "Accueil",
           to: "/",
         },
         {
-          icon: "mdi-chart-bubble",
+          icon: "mdi-gavel",
+          color: "green darken-2",
           title: "SuperLiga",
           to: "/inspire",
         },
@@ -84,7 +85,7 @@ export default {
       miniVariant: false,
       right: true,
       rightDrawer: false,
-      title: "Vuetify.js",
+      title: "Coaching gagnant",
     };
   },
 };
