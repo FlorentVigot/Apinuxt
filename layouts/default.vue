@@ -77,7 +77,7 @@ export default {
         },
         {
           icon: "mdi-gavel",
-          color: "green darken-2",
+          color: "green",
           title: "SuperLiga",
           to: "/inspire",
         },
@@ -90,3 +90,8 @@ export default {
   },
 };
 </script>
+<style scoped>
+.v-app {
+  background-color: #00a86b;
+}
+</style>

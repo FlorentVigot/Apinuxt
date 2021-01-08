@@ -36,3 +36,8 @@ export default {
   },
 };
 </script>
+<style scoped>
+.v-card {
+  background-color: #00a86b;
+}
+</style>

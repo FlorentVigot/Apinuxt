@@ -17,3 +17,8 @@
     </v-col>
   </v-row>
 </template>
+<style scoped>
+template {
+  background-color: #00a86b;
+}
+</style>
