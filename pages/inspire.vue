@@ -17,6 +17,19 @@
     </v-col>
   </v-row>
 </template>
+// <script>
+// import axios from "axios";
+// export default {
+//   components: {
+//     Logo,
+//     VuetifyLogo,
+//   },
+//   // mounted(){
+//   //   axios.get
+//   // }
+// };
+//
+</script>
 <style scoped>
 template {
   background-color: #00a86b;
