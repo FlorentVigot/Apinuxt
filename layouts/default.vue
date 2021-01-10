@@ -58,6 +58,9 @@
     </v-navigation-drawer>
     <v-footer :absolute="!fixed" app>
       <span>&copy; {{ new Date().getFullYear() }}</span>
+      <span
+        >| My github <a><img src="assets/" /> </a
+      ></span>
     </v-footer>
   </v-app>
 </template>

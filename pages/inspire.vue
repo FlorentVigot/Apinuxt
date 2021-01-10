@@ -18,17 +18,16 @@
   </v-row>
 </template>
 // <script>
-// import axios from "axios";
-// export default {
-//   components: {
-//     Logo,
-//     VuetifyLogo,
-//   },
-//   // mounted(){
-//   //   axios.get
-//   // }
-// };
-//
+import axios from "axios";
+export default {
+  async asyncData() {
+    const api =
+      "https://github.com/FlorentVigot?tab=overview&from=2021-01-01&to=2021-01-09";
+    const mountains = await axios.get(api).then((response) => {
+      return response.data;
+    });
+  },
+};
 </script>
 <style scoped>
 template {
