@@ -7,17 +7,16 @@
         class="mb-5"
       />
       <blockquote class="blockquote">
-        &#8220;il n'y a pas de hasard .&#8221;
+        &#8220;voici la liste des match pour aujourd'hui&#8221;
         <footer>
           <small>
-            <em>&mdash;Flo</em>
+            <em>&mdash;Match</em>
           </small>
         </footer>
       </blockquote>
     </v-col>
   </v-row>
-</template>
-// <script>
+</template><script>
 import axios from "axios";
 export default {
   async asyncData() {
