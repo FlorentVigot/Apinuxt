@@ -80,9 +80,13 @@ export default {
         },
         {
           icon: "mdi-gavel",
-          color: "green",
           title: "SuperLiga",
           to: "/inspire",
+        },
+        {
+          icon: "mdi-gavel",
+          title: "Scotishleague",
+          to: "/scotish",
         },
       ],
       miniVariant: false,

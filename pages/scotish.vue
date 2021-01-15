@@ -20,6 +20,6 @@
 </script>
 <style scoped>
 template {
-  background-color: #00a86b;
+  background-color: #f18989;
 }
 </style>
