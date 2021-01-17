@@ -59,7 +59,9 @@
     <v-footer :absolute="!fixed" app>
       <span>&copy; {{ new Date().getFullYear() }}</span>
       <span
-        >| My github <a><img src="assets/" /> </a
+        >| My github
+        <a href="https://github.com/FlorentVigot"
+          ><img src="../assets/github.png" alt="github" /> </a
       ></span>
     </v-footer>
   </v-app>
@@ -81,12 +83,12 @@ export default {
         {
           icon: "mdi-gavel",
           title: "SuperLiga",
-          to: "/inspire",
+          to: "/superliga",
         },
         {
           icon: "mdi-gavel",
-          title: "Scotishleague",
-          to: "/scotish",
+          title: "Scottishleague",
+          to: "/scottish",
         },
       ],
       miniVariant: false,
@@ -100,5 +102,9 @@ export default {
 <style scoped>
 .v-app {
   background-color: #00a86b;
+}
+.v-footer {
+  background-color: white;
+  color: black;
 }
 </style>

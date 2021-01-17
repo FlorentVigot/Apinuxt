@@ -1,13 +1,9 @@
 <template>
   <v-row>
     <v-col class="text-center">
-      <img
-        src="../assets/danemarkliga.png"
-        alt="logo-daemark-liga"
-        class="mb-5"
-      />
+      <img src="../assets/scottish.png" alt="logo-scottish" class="mb-5" />
       <blockquote class="blockquote">
-        &#8220;voici la liste des match pour aujourd'hui&#8221;
+        &#8220;Voici la liste des match pour aujourd'hui&#8221;
         <footer>
           <small>
             <em>&mdash;Match</em>
@@ -19,7 +15,7 @@
 </template><script>
 </script>
 <style scoped>
-template {
-  background-color: #f18989;
+footer {
+  background-color: rgb(228, 186, 50);
 }
 </style>
