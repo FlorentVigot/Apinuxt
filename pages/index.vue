@@ -14,7 +14,7 @@
             <h2>Coaching gagnant c'est quoi ?</h2>
             <p>
               Coaching gagnant, c'est un site web, qui regroupe tout les match
-              de Superliga, la ligue danoise !
+              de Superliga, la ligue danoise ! et la ligue ecossaise !
             </p>
           </v-card-text>
           <v-card-actions>
