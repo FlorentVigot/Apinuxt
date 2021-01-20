@@ -7,7 +7,7 @@
         class="mb-5"
       />
       <blockquote class="blockquote">
-        &#8220;voici la liste des match pour aujourd'hui&#8221;
+        &#8220;Voici la liste des match pour aujourd'hui&#8221;
         <footer>
           <small>
             <em>&mdash;Match</em>
