@@ -20,7 +20,7 @@
           <v-card-actions>
             <v-spacer />
             <v-btn color="dark" nuxt to="/superliga"> Superliga </v-btn>
-            <v-btn color="dark" nuxt to="/scottish"> Ligue écossaise </v-btn>
+            <v-btn color="success" nuxt to="/scottish"> Ligue écossaise </v-btn>
           </v-card-actions>
         </v-card>
       </v-col>
