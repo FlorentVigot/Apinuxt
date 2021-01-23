@@ -12,23 +12,30 @@
           <small>
             <em>&mdash;Match</em>
           </small>
+          <div class="match">
+            {{ foot }}
+          </div>
         </footer>
       </blockquote>
     </v-col>
   </v-row>
 </template>
 <script>
-// import axios from "axios";
-// export default {
-//   async asyncData() {
-//     const api =
-//       "https://github.com/FlorentVigot?tab=overview&from=2021-01-01&to=2021-01-09";
-//     const mountains = await axios.get(api).then((response) => {
-//       return response.data;
-//     });
-//   },
-// };
-//
+import axios from "axios";
+export default {
+  data() {
+    return {
+      foot: "il n'y a pas de match",
+    };
+  },
+  mounted() {
+    axios
+      .get(
+        "	https://soccer.sportmonks.com/api/v2.0/teams/search/__SEARCH__?api_token=yxFYUOxWYSq2MWX38WtapABIocABgjQmRtbQnnz1o7Qii2Zeeu7TstK3UUSz"
+      )
+      .then((reponse) => (this.foot = reponse.data));
+  },
+};
 </script>
 <style scoped>
 img {
