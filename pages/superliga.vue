@@ -33,7 +33,7 @@ export default {
       .get(
         "	https://soccer.sportmonks.com/api/v2.0/teams/search/__SEARCH__?api_token=yxFYUOxWYSq2MWX38WtapABIocABgjQmRtbQnnz1o7Qii2Zeeu7TstK3UUSz"
       )
-      .then((reponse) => (this.foot = reponse.data));
+      .then((reponse) => (this.foot = reponse.data.plan.name));
   },
 };
 </script>
