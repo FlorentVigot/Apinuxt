@@ -8,14 +8,14 @@
       />
       <blockquote class="blockquote">
         &#8220;Voici la liste des match pour aujourd'hui&#8221;
-        <footer>
+        <section>
           <small>
             <em>&mdash;Match</em>
           </small>
           <div class="match">
             {{ foot }}
           </div>
-        </footer>
+        </section>
       </blockquote>
     </v-col>
   </v-row>
