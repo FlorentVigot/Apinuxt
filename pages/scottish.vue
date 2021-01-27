@@ -1,20 +1,22 @@
 <template>
-  <v-row>
-    <v-col class="text-center">
-      <div class="scottish-title">
-        <h1>{{ title }}</h1>
-      </div>
-      <img src="../assets/scottish.png" alt="logo-scottish" class="mb-5" />
-      <blockquote class="blockquote">
-        &#8220;Voici la liste des match pour aujourd'hui&#8221;
-        <footer>
-          <small>
-            <em>&mdash;Match</em>
-          </small>
-        </footer>
-      </blockquote>
-    </v-col>
-  </v-row>
+  <div class="container">
+    <v-row>
+      <v-col class="text-center">
+        <div class="scottish-title">
+          <h1>{{ title }}</h1>
+        </div>
+        <img src="../assets/scottish.png" alt="logo-scottish" class="mb-5" />
+        <blockquote class="blockquote">
+          &#8220;Voici la liste des match pour aujourd'hui&#8221;
+          <footer>
+            <small>
+              <em>&mdash;Match</em>
+            </small>
+          </footer>
+        </blockquote>
+      </v-col>
+    </v-row>
+  </div>
 </template>
 <script>
 export default {
@@ -26,6 +28,9 @@ export default {
 };
 </script>
 <style scoped>
+.container {
+  background-color: white;
+}
 img {
   background-color: white;
 }
