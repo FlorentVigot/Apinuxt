@@ -43,9 +43,6 @@ export default {
 .container {
   background-color: white;
 }
-/* img {
-  background-color: coral;
-} */
 .match {
   background-color: teal;
 }

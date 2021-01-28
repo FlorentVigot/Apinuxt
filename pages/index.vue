@@ -12,10 +12,11 @@
           <v-card-text>
             <h2>Coaching gagnant c'est quoi ?</h2>
             <p>
-              Coaching gagnant, c'est un site web, qui regroupe tout les match
+              Coaching gagnant, c'est un site web qui regroupe tout les matchs
               de Superliga et de Scottish Premiership, la ligue danoise et la
               ligue écossaise de football!
             </p>
+            <p>Retrouvez tout les matchs !</p>
           </v-card-text>
           <v-card-actions>
             <v-spacer />
