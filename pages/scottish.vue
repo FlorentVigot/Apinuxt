@@ -25,6 +25,13 @@ export default {
       title: "The Scottish league !",
     };
   },
+  mounted() {
+    axios
+      .get(
+        "	https://soccer.sportmonks.com/api/v2.0/teams/search/__SEARCH__?api_token=yxFYUOxWYSq2MWX38WtapABIocABgjQmRtbQnnz1o7Qii2Zeeu7TstK3UUSz"
+      )
+      .then((reponse) => (this.foot = reponse.data));
+  },
 };
 </script>
 <style scoped>
