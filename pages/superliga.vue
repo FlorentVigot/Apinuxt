@@ -17,6 +17,7 @@
               {{ foot }}
             </div>
           </section>
+          <footer>oui</footer>
         </blockquote>
       </v-col>
     </v-row>
@@ -45,5 +46,8 @@ export default {
 }
 .match {
   background-color: teal;
+}
+footer {
+  background-color: rgb(228, 186, 50);
 }
 </style>
