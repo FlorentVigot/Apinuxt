@@ -13,9 +13,9 @@
             <small>
               <em>&mdash;Match</em>
             </small>
-            <div class="match">
+            <section class="match">
               {{ foot }}
-            </div>
+            </section>
           </section>
           <footer>oui</footer>
         </blockquote>

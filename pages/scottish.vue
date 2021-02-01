@@ -8,11 +8,11 @@
         <img src="../assets/scottish.png" alt="logo-scottish" class="mb-5" />
         <blockquote class="blockquote">
           &#8220;Voici la liste des match pour aujourd'hui&#8221;
-          <footer>
+          <section>
             <small>
-              <em>&mdash;Match</em>
+              <em>Match</em>
             </small>
-          </footer>
+          </section>
         </blockquote>
       </v-col>
     </v-row>
