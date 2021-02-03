@@ -7,10 +7,10 @@
         </div>
         <img src="../assets/scottish.png" alt="logo-scottish" class="mb-5" />
         <blockquote class="blockquote">
-          &#8220;Voici la liste des match pour aujourd'hui&#8221;
+          &#8220;Voici la liste des matchs pour aujourd'hui&#8221;
           <section>
             <small>
-              <em>Match</em>
+              <em>Les matchs :</em>
             </small>
           </section>
         </blockquote>
