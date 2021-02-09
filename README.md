@@ -1,5 +1,6 @@
-# apinuxt
-I create an api apllication with sportmonks about football 
+# Api with Nuxt JS
+I create an api apllication with sportmonks about football.
+You can find the score live of Scottish Premiership and Superliga 
 ## Build Setup
 
 ```bash
