@@ -1,7 +1,8 @@
 # Api with Nuxt JS
 <p><img src="https://img.shields.io/badge/nuxt.js-00C58E?style=for-the-badge&logo=nuxtdotjs&logoColor=white" /></p>
 I create an api apllication with sportmonks about football.
-You can find the score live of Scottish Premiership and Superliga 
+You can find the score live of Scottish Premiership and Superliga.
+<br>
 ## Build Setup
 
 ```bash
